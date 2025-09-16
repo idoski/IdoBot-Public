@@ -230,7 +230,7 @@ client.on(Events.InteractionCreate, async interaction => {
 				if (pass == 'null') {
 					await interaction.reply('https://drive.google.com/drive/folders/1CHN5kyPiIqqLVMxv_fg6tXq90krlLaZw?usp=sharing');
 				}
-				else if (pass == 'mm7Zxx0p8!nqTTy') {
+				else if (pass == 'placeholder') {
 					con.query('SELECT * FROM card_query', (error, results) => {
 						// (C1) EXTRACT DATA FROM DATABASE
 						if (error) throw error;
